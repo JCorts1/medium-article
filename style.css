@@ -1,0 +1,75 @@
+body {
+  background-image: url("../img/touchedstars.jpg");
+  background-repeat: repeat;
+  background-size: 900px;
+  font-family: "Ubuntu Sans Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  margin: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 11em;
+  height: 11em;
+  border: 1px white;
+  border-radius: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(255, 255, 255) 0px 18px 36px -18px inset;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px #fff;
+  font-size: 18px;
+}
+
+.news {
+  color: white;
+  margin-top: 20px;
+  width: 80%;
+  background: rgb(98,98,98);
+  background: radial-gradient(circle, rgba(98,98,98,0.1390931372549019) 0%, rgba(224,224,224,0.2147233893557423) 100%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 2px 2px 3px #ffffffa0;
+}
+
+footer {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  display: flex;
+}
+
+footer h1 {
+  color: #fff;
+  margin-left: 25px;
+}
+
+footer img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+@media(max-width: 992px) {
+
+  footer {
+    width: 80%;
+    margin-left: -20px;
+  }
+}
